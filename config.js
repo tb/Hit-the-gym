@@ -6,7 +6,8 @@ System.config({
     "memberVariables": true
   },
   "paths": {
-    "*": "*.js",
+    js: "client/**/*.js",
+    html: "src/**/*.html",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
   }
